@@ -1,0 +1,15 @@
+{
+  "total" : 1,
+  "items" : [ {
+    "uid" : "68a38a0e662d4b768fc714cc388400c6",
+    "name" : "trcrm app regression suite",
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 5,
+      "unknown" : 1,
+      "total" : 7
+    }
+  } ]
+}

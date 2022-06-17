@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 10, Failures: 1, Errors: 0, Skipped: 9, Time elapsed: 47.431 s <<< FAILURE! - in TestSuite
+setUp(com.qa.trcrm.tests.HomePageTest)  Time elapsed: 43.922 s  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:26679
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SACHIN-SHARMA', ip: '192.168.43.210', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+Driver info: driver.version: FirefoxDriver
+	at com.qa.trcrm.tests.HomePageTest.setUp(HomePageTest.java:28)
+Caused by: java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:26679
+	at com.qa.trcrm.tests.HomePageTest.setUp(HomePageTest.java:28)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at com.qa.trcrm.tests.HomePageTest.setUp(HomePageTest.java:28)
+

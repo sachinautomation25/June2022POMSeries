@@ -1,0 +1,30 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "expected [CRM Login CRM | Customer Relationship Management TRCRM2] but found [CRM Login CRM | Customer Relationship Management TRCRM]",
+      "children" : [ {
+        "name" : "verifyLoginPageTitleTest",
+        "uid" : "4147cfb10e088d07",
+        "parentUid" : "6b39eb83f172fdf65c613fb6c111103e",
+        "status" : "failed",
+        "time" : {
+          "start" : 1655307418826,
+          "stop" : 1655307420362,
+          "duration" : 1536
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 2,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "6b39eb83f172fdf65c613fb6c111103e"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

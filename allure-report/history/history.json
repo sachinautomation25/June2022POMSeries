@@ -1,0 +1,136 @@
+{
+  "2007fe506eaf6bf3fccff0a64bda52dd" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "af1bf313b8d9f606",
+      "status" : "passed",
+      "time" : {
+        "start" : 1655307421932,
+        "stop" : 1655307452570,
+        "duration" : 30638
+      }
+    } ]
+  },
+  "368794d25172ebce3b99dd96d6c9cf7d" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "4147cfb10e088d07",
+      "status" : "failed",
+      "statusDetails" : "expected [CRM Login CRM | Customer Relationship Management TRCRM2] but found [CRM Login CRM | Customer Relationship Management TRCRM]",
+      "time" : {
+        "start" : 1655307418826,
+        "stop" : 1655307420362,
+        "duration" : 1536
+      }
+    } ]
+  },
+  "8fc91e542cbc53d6fdc88be666f0d720" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "31b7edec2f12a304",
+      "status" : "passed",
+      "time" : {
+        "start" : 1655307420462,
+        "stop" : 1655307420665,
+        "duration" : 203
+      }
+    } ]
+  },
+  "65c8793b15c3a7d8e21c6f40283db699" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "dbc6c0b72afb3d68",
+      "status" : "passed",
+      "time" : {
+        "start" : 1655307421170,
+        "stop" : 1655307421898,
+        "duration" : 728
+      }
+    } ]
+  },
+  "4968bc7b6e55ccfe71465241da35c217" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "9da3685c9fe365a1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1655307452596,
+        "stop" : 1655307453265,
+        "duration" : 669
+      }
+    } ]
+  },
+  "763fa3ae021e51d563f39fb3e6517849" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 1,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "655c3890edee6046",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1655307302393,
+        "stop" : 1655307302405,
+        "duration" : 12
+      }
+    } ]
+  },
+  "45402d965f43b25e07e887ff3323688" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "9d13bf96708ae17b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1655307420684,
+        "stop" : 1655307421141,
+        "duration" : 457
+      }
+    } ]
+  }
+}

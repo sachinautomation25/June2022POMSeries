@@ -1,0 +1,136 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "com.qa.trcrm.tests",
+    "children" : [ {
+      "name" : "LoginPageTest",
+      "children" : [ {
+        "name" : "login_InvalidTestCases",
+        "uid" : "655c3890edee6046",
+        "parentUid" : "56243f24cb3dfdc39eb91e6ee2132da6",
+        "status" : "unknown",
+        "time" : {
+          "start" : 1655307302393,
+          "stop" : 1655307302405,
+          "duration" : 12
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 2,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "verifyLoginPageTitleTest",
+        "uid" : "4147cfb10e088d07",
+        "parentUid" : "56243f24cb3dfdc39eb91e6ee2132da6",
+        "status" : "failed",
+        "time" : {
+          "start" : 1655307418826,
+          "stop" : 1655307420362,
+          "duration" : 1536
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 2,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "verifySignUpLinkTest",
+        "uid" : "9d13bf96708ae17b",
+        "parentUid" : "56243f24cb3dfdc39eb91e6ee2132da6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1655307420684,
+          "stop" : 1655307421141,
+          "duration" : 457
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 2,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "loginTest",
+        "uid" : "af1bf313b8d9f606",
+        "parentUid" : "56243f24cb3dfdc39eb91e6ee2132da6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1655307421932,
+          "stop" : 1655307452570,
+          "duration" : 30638
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 2,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "56243f24cb3dfdc39eb91e6ee2132da6"
+    }, {
+      "name" : "HomePageTest",
+      "children" : [ {
+        "name" : "verifyHomePageTitle",
+        "uid" : "31b7edec2f12a304",
+        "parentUid" : "c36d85002548a5319fc411c848132f62",
+        "status" : "passed",
+        "time" : {
+          "start" : 1655307420462,
+          "stop" : 1655307420665,
+          "duration" : 203
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 2,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "verifyHomePageHeaderTest",
+        "uid" : "dbc6c0b72afb3d68",
+        "parentUid" : "c36d85002548a5319fc411c848132f62",
+        "status" : "passed",
+        "time" : {
+          "start" : 1655307421170,
+          "stop" : 1655307421898,
+          "duration" : 728
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 2,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "verifyLoggedInUserTest",
+        "uid" : "9da3685c9fe365a1",
+        "parentUid" : "c36d85002548a5319fc411c848132f62",
+        "status" : "passed",
+        "time" : {
+          "start" : 1655307452596,
+          "stop" : 1655307453265,
+          "duration" : 669
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 2,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "c36d85002548a5319fc411c848132f62"
+    } ],
+    "uid" : "com.qa.trcrm.tests"
+  } ]
+}

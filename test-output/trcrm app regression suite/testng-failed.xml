@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [trcrm app regression suite]">
+  <listeners>
+    <listener class-name="com.qa.trcrm.listeners.TestAllureListener"/>
+  </listeners>
+  <test thread-count="5" name="regression test(failed)">
+    <classes>
+      <class name="com.qa.trcrm.tests.ContactsPageTest">
+        <methods>
+          <include name="verifyAddPersonTest" invocation-numbers="0"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.qa.trcrm.tests.ContactsPageTest -->
+    </classes>
+  </test> <!-- regression test(failed) -->
+</suite> <!-- Failed suite [trcrm app regression suite] -->

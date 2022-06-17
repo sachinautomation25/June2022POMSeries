@@ -1,0 +1,71 @@
+[ {
+  "uid" : "4147cfb10e088d07",
+  "name" : "verifyLoginPageTitleTest",
+  "time" : {
+    "start" : 1655307418826,
+    "stop" : 1655307420362,
+    "duration" : 1536
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "31b7edec2f12a304",
+  "name" : "verifyHomePageTitle",
+  "time" : {
+    "start" : 1655307420462,
+    "stop" : 1655307420665,
+    "duration" : 203
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "af1bf313b8d9f606",
+  "name" : "loginTest",
+  "time" : {
+    "start" : 1655307421932,
+    "stop" : 1655307452570,
+    "duration" : 30638
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "dbc6c0b72afb3d68",
+  "name" : "verifyHomePageHeaderTest",
+  "time" : {
+    "start" : 1655307421170,
+    "stop" : 1655307421898,
+    "duration" : 728
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9da3685c9fe365a1",
+  "name" : "verifyLoggedInUserTest",
+  "time" : {
+    "start" : 1655307452596,
+    "stop" : 1655307453265,
+    "duration" : 669
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9d13bf96708ae17b",
+  "name" : "verifySignUpLinkTest",
+  "time" : {
+    "start" : 1655307420684,
+    "stop" : 1655307421141,
+    "duration" : 457
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "655c3890edee6046",
+  "name" : "login_InvalidTestCases",
+  "time" : {
+    "start" : 1655307302393,
+    "stop" : 1655307302405,
+    "duration" : 12
+  },
+  "status" : "unknown",
+  "severity" : "normal"
+} ]

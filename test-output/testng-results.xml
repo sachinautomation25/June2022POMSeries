@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="1" total="3" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="91062" started-at="2022-06-17T09:04:30Z" finished-at="2022-06-17T09:06:01Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="91062" started-at="2022-06-17T09:04:30Z" finished-at="2022-06-17T09:06:01Z">
+      <class name="com.qa.trcrm.tests.ContactsPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.trcrm.tests.ContactsPageTest@26fb628]" name="setUp" is-config="true" duration-ms="22296" started-at="2022-06-17T09:04:33Z" finished-at="2022-06-17T09:04:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyAddPersonTest(java.lang.String, java.lang.String)[pri:2, instance:com.qa.trcrm.tests.ContactsPageTest@26fb628]" name="verifyAddPersonTest" duration-ms="16008" started-at="2022-06-17T09:04:56Z" data-provider="getData" finished-at="2022-06-17T09:05:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Bhawna]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[bhawna@gmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAddPersonTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.trcrm.tests.ContactsPageTest@26fb628]" name="tearDown" is-config="true" duration-ms="2059" started-at="2022-06-17T09:05:12Z" finished-at="2022-06-17T09:05:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.trcrm.tests.ContactsPageTest@26fb628]" name="setUp" is-config="true" duration-ms="26494" started-at="2022-06-17T09:05:14Z" finished-at="2022-06-17T09:05:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyAddPersonTest(java.lang.String, java.lang.String)[pri:2, instance:com.qa.trcrm.tests.ContactsPageTest@26fb628]" name="verifyAddPersonTest" duration-ms="19189" started-at="2022-06-17T09:05:40Z" data-provider="getData" finished-at="2022-06-17T09:06:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Deepak]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[deepak@gmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAddPersonTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.trcrm.tests.ContactsPageTest@26fb628]" name="tearDown" is-config="true" duration-ms="1229" started-at="2022-06-17T09:06:00Z" finished-at="2022-06-17T09:06:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.trcrm.tests.ContactsPageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [trcrm app sanity suite]">
+  <test thread-count="5" name="sanity test--firefox(failed)">
+    <parameter name="browserName" value="firefox"/>
+    <classes>
+      <class name="com.qa.trcrm.tests.LoginPageTest2">
+        <methods>
+          <include name="setUp"/>
+          <include name="verifyLoginPageTitleTest"/>
+          <include name="verifySignUpLinkTest"/>
+          <include name="tearDown"/>
+          <include name="loginTest"/>
+        </methods>
+      </class> <!-- com.qa.trcrm.tests.LoginPageTest2 -->
+    </classes>
+  </test> <!-- sanity test-firefox(failed) -->
+</suite> <!-- Failed suite [trcrm app sanity suite] -->

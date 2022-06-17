@@ -1,0 +1,132 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "Epic-101 : define login feature for trcrm application",
+    "children" : [ {
+      "name" : "US-1001 :create features for login with signup,title and login",
+      "children" : [ {
+        "name" : "login_InvalidTestCases",
+        "uid" : "655c3890edee6046",
+        "parentUid" : "8a62c310fb2125e174c8670dbe4af936",
+        "status" : "unknown",
+        "time" : {
+          "start" : 1655307302393,
+          "stop" : 1655307302405,
+          "duration" : 12
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 2,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "verifyLoginPageTitleTest",
+        "uid" : "4147cfb10e088d07",
+        "parentUid" : "8a62c310fb2125e174c8670dbe4af936",
+        "status" : "failed",
+        "time" : {
+          "start" : 1655307418826,
+          "stop" : 1655307420362,
+          "duration" : 1536
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 2,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "verifySignUpLinkTest",
+        "uid" : "9d13bf96708ae17b",
+        "parentUid" : "8a62c310fb2125e174c8670dbe4af936",
+        "status" : "passed",
+        "time" : {
+          "start" : 1655307420684,
+          "stop" : 1655307421141,
+          "duration" : 457
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 2,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "loginTest",
+        "uid" : "af1bf313b8d9f606",
+        "parentUid" : "8a62c310fb2125e174c8670dbe4af936",
+        "status" : "passed",
+        "time" : {
+          "start" : 1655307421932,
+          "stop" : 1655307452570,
+          "duration" : 30638
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 2,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "8a62c310fb2125e174c8670dbe4af936"
+    } ],
+    "uid" : "69397fd24be157c2b4bda95ce00f4b2e"
+  }, {
+    "name" : "verifyHomePageTitle",
+    "uid" : "31b7edec2f12a304",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1655307420462,
+      "stop" : 1655307420665,
+      "duration" : 203
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 2,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "verifyHomePageHeaderTest",
+    "uid" : "dbc6c0b72afb3d68",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1655307421170,
+      "stop" : 1655307421898,
+      "duration" : 728
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 2,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "verifyLoggedInUserTest",
+    "uid" : "9da3685c9fe365a1",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1655307452596,
+      "stop" : 1655307453265,
+      "duration" : 669
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 2,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  } ]
+}

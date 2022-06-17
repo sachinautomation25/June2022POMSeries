@@ -1,0 +1,70 @@
+{
+  "uid" : "2cbaed2f4fd7969b",
+  "name" : "login_InvalidTestCases",
+  "fullName" : "com.qa.trcrm.tests.LoginPageTest.login_InvalidTestCases",
+  "historyId" : "763fa3ae021e51d563f39fb3e6517849",
+  "time" : {
+    "start" : 1655300923537,
+    "stop" : 1655300923545,
+    "duration" : 8
+  },
+  "status" : "unknown",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com.qa.trcrm.tests.LoginPageTest"
+  }, {
+    "name" : "testClass",
+    "value" : "com.qa.trcrm.tests.LoginPageTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "login_InvalidTestCases"
+  }, {
+    "name" : "parentSuite",
+    "value" : "trcrm app regression suite"
+  }, {
+    "name" : "suite",
+    "value" : "regression test"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.qa.trcrm.tests.LoginPageTest"
+  }, {
+    "name" : "host",
+    "value" : "Sachin-Sharma"
+  }, {
+    "name" : "thread",
+    "value" : "6772@Sachin-Sharma.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "feature",
+    "value" : "US-1001 :create features for login with signup,title and login"
+  }, {
+    "name" : "epic",
+    "value" : "Epic-101 : define login feature for trcrm application"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "2cbaed2f4fd7969b.json",
+  "parameterValues" : [ ]
+}
