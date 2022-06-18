@@ -20,5 +20,6 @@ public class ProfilePage2 extends BasePage {
 	public void local()// local changes
 	{
 		System.out.println("ProfilePage--local");
+		System.out.println("ProfilePage--local");
 	}
 }
