@@ -11,9 +11,14 @@ public class ProfilePage2 extends BasePage {
 	public ProfilePage2(WebDriver driver) {
 		this.driver = driver;
 	}
-  public void remote()
-  {
-  System.out.println("ProfilePage--remote");
-System.out.println("someone merged this statement after pr process");
-  }
+
+	public void remote() {
+		System.out.println("ProfilePage--remote");
+		System.out.println("someone merged this statement after pr process");
+	}
+
+	public void local()// local changes
+	{
+		System.out.println("ProfilePage--local");
+	}
 }
