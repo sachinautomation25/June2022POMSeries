@@ -23,6 +23,8 @@ public class LoginPage extends BasePage {
 	
 	By errorMsg=By.id("error");
 	By userLogin=By.xpath("//h3[text()='User Login']");
+	
+	By random=By.id("random");
 
 	public LoginPage(WebDriver driver) {
 		this.driver = driver;
