@@ -14,5 +14,6 @@ public class ProfilePage2 extends BasePage {
   public void remote()
   {
   System.out.println("ProfilePage--remote");
+System.out.println("someone merged this statement after pr process");
   }
 }
