@@ -73,7 +73,7 @@ public class LoginPageTest {
 		return data;
 	}
 
-	@Test(priority = 4, dataProvider = "getLoginInvalidData", enabled = true)
+	@Test(priority = 4, dataProvider = "getLoginInvalidData", enabled = false)
 	public void login_InvalidTestCases(String email, String pwd) {
 		credentials=new Credentials(email, pwd);
 		loginPage.doLogin(credentials);
