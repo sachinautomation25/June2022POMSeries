@@ -17,7 +17,8 @@ public class ContactsPage extends BasePage {
 	
 	By contactPageHeader=By.xpath("(//h2[text()])[1]");
 	
-	By addPersonBtn=By.cssSelector("button.hidden-xs.hidden-sm.btn.btn-danger.mr5.ng-scope.ng-binding");
+	//By addPersonBtn=By.cssSelector("button.hidden-xs.hidden-sm.btn.btn-danger.mr5.ng-scope.ng-binding");
+	By addPersonBtn = By.xpath("//button[@class='hidden-xs hidden-sm btn btn-danger mr5 ng-scope ng-binding']");
 	By name=By.name("name");
 	By email=By.id("email0");
 	

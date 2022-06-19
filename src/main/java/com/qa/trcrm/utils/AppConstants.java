@@ -7,7 +7,7 @@ public class AppConstants {
 	public static final String LOGGED_IN_USER_NAME = "sachin sharma";
 	public static final String HOME_PAGE_HEADER="Homepage";
 	
-	public static final int DEFAULT_TIME_OUT=20;
+	public static final int DEFAULT_TIME_OUT=25;
 	
 	public static final String CONTACTS_PAGE_HEADER = "Contacts";
 	public static final String CONTACTS_PERSON_ADDED = "Person added.";
