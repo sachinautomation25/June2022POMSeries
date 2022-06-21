@@ -52,6 +52,7 @@ public class LoginPageTest {
 		Assert.assertEquals(title, AppConstants.LOGIN_PAGE_TITLE);
 	}
 
+//	@JiraPolicy(logTicketReady = false)
 	@Description("verify sign up link test")
 	@Severity(SeverityLevel.CRITICAL)
 	@Test(priority = 2)
