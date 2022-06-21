@@ -14,6 +14,7 @@ import com.qa.trcrm.pages.HomePage;
 import com.qa.trcrm.pages.LoginPage;
 import com.qa.trcrm.pojo.Credentials;
 import com.qa.trcrm.utils.AppConstants;
+import com.qa.trcrm.utils.JiraPolicy;
 
 import io.qameta.allure.Description;
 import io.qameta.allure.Epic;
@@ -42,6 +43,7 @@ public class LoginPageTest {
 
 	}
 
+	@JiraPolicy(logTicketReady = true)
 	@Description("verify login page title")
 	@Severity(SeverityLevel.NORMAL)
 	@Test(priority = 1)
